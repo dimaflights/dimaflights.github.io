@@ -1,0 +1,187 @@
+body{margin: 0px;padding: 0px;font-family: Roboto;position: relative;}
+a , a:hover , a:focus {outline:0;text-decoration: none !important;}
+.nopadding {
+    padding: 0 !important;
+}
+.navbar.navigationbar .navbar-nav .nav-link {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 18px;
+    padding: 2rem;font-weight: 300;
+}
+.contactnum p {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 15px; line-height: 10px;
+    margin-bottom: 0;font-weight: 300;
+}
+.contactnum span {
+    color: #00ff99;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 500;
+}
+.bannerdiv {
+    align-items: center;
+    background: rgba(0, 0, 0, 0) url("http://101.53.145.169/~dev/Flighttravel/wp-content/uploads/2018/10/header_banner_1.jpg") repeat scroll 0 0;
+    display: flex;
+    justify-content: center;
+    min-height: 400px;
+    text-align: center;
+}
+nav.navigationbar {
+        position: absolute;width: 100%;
+    z-index: 99;padding: 10px 0;
+}
+.bannerdiv {
+    top: 0;
+    width: 100%;
+}
+.bannercontent h1 {
+    color: #00ff99;
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 900;
+}
+footer {
+    background: rgba(0, 0, 0, 0) url("http://101.53.145.169/~dev/Flighttravel/wp-content/uploads/2018/10/footer_image-1.jpg") no-repeat scroll center center / cover ;
+    padding: 40px 0 0;
+}
+.footerwidget h3 {
+    color: #0099cc;
+    font-size: 21px;
+    font-weight: bold;
+}
+hr.footertitle_brdr {
+    border: 2px solid #0099cc;
+    margin: 1rem 0.2rem;
+    width: 3rem;
+}
+.footerwidget li {
+    color: #fff;
+    float: left;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.footerwidget > ul {
+    list-style: outside none none;
+    padding: 0;
+}
+.footerwidget li i {
+    color: #0099cb;
+    float: left;padding-top: 3px;
+    width: 25px;
+}
+.footerwidget span {
+    float: left;
+    width: calc(100% - 30px);
+}
+.footerwidget.footerlinks li {
+    background: rgba(0, 0, 0, 0) url("../images/arrow_white.png") no-repeat scroll left center;
+    float: left;
+    padding-bottom: 2px;
+    padding-left: 20px;
+    width: 50%;
+}
+.footerwidget.footerlinks li:hover a{color: #0099cc;text-decoration: none;}
+.footerwidget.footerlinks li:hover {background: rgba(0, 0, 0, 0) url("../images/arrow_blue.png") no-repeat scroll left center;}
+.footerwidget.footerlinks li a{color: #fff;}
+.copyrightdiv > p {
+    color: #eff3f6;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 100;
+}
+.bottomlinks li {
+    display: inline;
+    width: 125px !important;
+}
+.bottomlinks ul {
+    padding: 0px;
+}
+.bottomlinks a {
+    color: #fff;
+    font-family: Roboto;
+    font-weight: 300;
+    padding: 0 20px;
+}
+.bottomlinks a:hover{color: #0099cc}
+.designeddiv p {
+    color: #0099cc;
+    font-family: Roboto;
+    font-weight: 300;
+}
+.footerborder {
+    border: 1px solid #5c5c5e;
+    margin-top: 40px;
+}
+.footerbottom {
+    padding: 10px 0;
+}
+.travelform .forminput {
+    float: left;
+    width: 20%;
+}
+.flightform_sec > h3 {
+    background: #0099cc none repeat scroll 0 0;
+    color: #fefefe;
+    font-family: Lato;
+    font-size: 23px;
+    font-weight: 600;
+    padding: 10px 15px;margin-bottom: 0px;
+}
+.flightform_sec {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 12px 20px 55px 0 #a2adc5;
+}
+.flightform_sec form {
+    background: #f7f7f7 none repeat scroll 0 0;
+    padding: 20px;
+}
+.travelform .forminput {
+    padding: 0 10px;
+}
+.travelform .forminput label {
+    color: #333;
+    font-family: Lato;
+    font-size: 17px;
+    font-weight: bold;
+    justify-content: left;
+}
+.travelform .forminput input {
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    box-shadow: none;
+    height: 45px;
+    width: 100%;
+}
+.travelform .forminput input::-moz-placeholder{color:#999;font-size: 15px;font-family: Roboto;}
+@media (min-width: 1280px) {
+	.container{max-width:1200px !important;}
+}
+
+@media (max-width: 767px) {
+	.logo {
+    width: 70%;
+}
+.logo img{width: 100%;}
+nav.navigationbar{padding: 10px;}
+.navigationbar button.navbar-toggler {
+    border: 2px solid #00ff99;
+    border-radius: 0;
+    height: 2.5rem;
+    width: 3rem;
+}
+.navbar-toggler .icon-bar {
+    border-radius: 1px;
+    display: block;
+    height: 2px;color: #00FF99
+    width: 22px;margin: 5px 0px;
+}
+.navbar-toggler .icon-bar {
+    background-color: #00FF99;
+}
+}

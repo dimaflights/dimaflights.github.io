@@ -1,0 +1,281 @@
+/*
+Theme Name:     Listify Child
+Theme URI:      https://astoundify.com/products/listify/
+Template:       listify
+Version:        1.0
+*/
+
+/*home-banner*/
+
+.datepickerinputbox select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    /*background-image: url("http://101.53.145.169/~dev/Flighttravel/wp-content/uploads/2018/10/dropdown-icon.png");*/
+    background-position: 97% center;
+    background-repeat: no-repeat;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: none;
+    color: #333333;
+    font-family: Roboto;
+    font-size: 16px;
+    height: 45px;
+    width: 100%;
+    background-color: #f5f5f5;
+    min-width: 100%;
+}
+.datepickerinputbox span{
+    width:100%;
+}
+.backicon{
+    background-repeat: no-repeat !important;
+    background-position: 97% !important;
+}
+.formtabsection ul{
+    margin: 0px;
+}
+.delmultirow {
+    color: #fff;
+    background-color: #4e4e4e;
+    border: 0;
+    padding: 13px 15px;
+    font-size: 17px !important;
+    font-weight: bold !important;
+    border-radius: 3px;
+    width:100%!important;
+}
+
+.autocomplete-wrapper {
+  position: relative;
+}
+.autocomplete-wrapper input {
+  width: 100%;
+}
+
+.autocomplete-results {
+  position: absolute;
+  background: white;
+  z-index: 1;
+  top: 100%;
+  left: 0;
+  font-size: 13px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+.autocomplete-result {
+  padding: 12px 15px;
+  border-bottom: solid 1px #eee;
+  cursor: pointer;
+}
+
+.autocomplete-result:last-child {
+  border-bottom-width: 0;
+}
+
+.autocomplete-location {
+  opacity: .8;
+  font-size: smaller;
+}
+
+.autocomplete-results[data-highlight='0'] > :nth-child(1) {
+  color: white;
+  background: #26C9FF;
+  border-bottom-color: #26C9FF;
+  outline: solid 1px #00b6f2;
+}
+
+.autocomplete-results[data-highlight='1'] > :nth-child(2) {
+  color: white;
+  background: #26C9FF;
+  border-bottom-color: #26C9FF;
+  outline: solid 1px #00b6f2;
+}
+
+.autocomplete-results[data-highlight='2'] > :nth-child(3) {
+  color: white;
+  background: #26C9FF;
+  border-bottom-color: #26C9FF;
+  outline: solid 1px #00b6f2;
+}
+
+.autocomplete-results[data-highlight='3'] > :nth-child(4) {
+  color: white;
+  background: #26C9FF;
+  border-bottom-color: #26C9FF;
+  outline: solid 1px #00b6f2;
+}
+
+.autocomplete-results[data-highlight='4'] > :nth-child(5) {
+  color: white;
+  background: #26C9FF;
+  border-bottom-color: #26C9FF;
+  outline: solid 1px #00b6f2;
+}
+
+.autocomplete-results[data-highlight='5'] > :nth-child(6) {
+  color: white;
+  background: #26C9FF;
+  border-bottom-color: #26C9FF;
+  outline: solid 1px #00b6f2;
+}
+
+.autocomplete-results[data-highlight='6'] > :nth-child(7) {
+  color: white;
+  background: #26C9FF;
+  border-bottom-color: #26C9FF;
+  outline: solid 1px #00b6f2;
+}
+
+.autocomplete-results[data-highlight='7'] > :nth-child(8) {
+  color: white;
+  background: #26C9FF;
+  border-bottom-color: #26C9FF;
+  outline: solid 1px #00b6f2;
+}
+.autocomplete-result:hover {
+    background: #2854a1;
+    color:#ffffff;
+}
+.section-head h2 {
+  margin: 0 auto;
+  padding: 15px 0;
+  color: #2854a1;
+  font-weight: bold;
+}
+.section-head {
+  float: left;
+  text-align: center;
+}
+.quotebtn {
+    padding: 13px !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    width: 100%;
+}
+.site-footer {
+  overflow: inherit;
+  float: left;
+  width: 100%;
+}
+
+/*gourav-08-oct-2018*/
+.nav-menu.primary a {color: #ffffff;font-family: Roboto;font-size: 18px;
+    font-weight: 300;}
+div#header-widget-area p.call-text {color: #fff;font-family: Roboto;font-size: 14px;
+  line-height: 18px;margin-bottom: 0;font-weight: 300;font-style: italic;}
+  .nav-menu li, ul.nav-menu li {margin-right: 40px;}
+  div#header-widget-area span.no {color: #00ff99;font-family: Roboto;    font-size: 30px;
+    font-weight: 500;}
+.radio-but input:focus {outline: none;}
+ul.radio-but li {display: inline-block;padding: 0px 15px 15px 15px;
+    font-size: 17px;font-weight: 400;}
+
+.footer-wrapper h4 {color: #0099cc;font-size: 21px;font-weight: bold;
+text-transform: capitalize;}
+.footer-wrapper h4:after {content: "";border-bottom: 4px solid #0099cc;
+    display: block;width: 70px;margin-top: 10px;}
+.footer-wrapper li i {color: #0099cb;float: left;line-height: 25px;
+  font-size: 14px;padding-right:10px;}
+
+.footer-wrapper li {color: #fff;float: left;font-family: Roboto;
+    font-size: 14px;font-weight: 300;padding-bottom: 10px;width: 100%;}  
+/*ul.footerlinks li {background: rgba(0, 0, 0, 0) url(http://101.53.145.169/~dev/Flighttravel/wp-content/uploads/2018/10/dust.png) no-repeat scroll left center;
+    float: left;padding-bottom: 2px;padding-left: 20px;width: 50%;}*/
+ul.footerlinks li:hover {color: #0099cb;}    
+.footer-wrapper {
+    color: #ffffff;
+    background-image: url(http://101.53.145.169/~dev/Flighttravel/wp-content/uploads/2018/10/footer_image-1.jpg);
+}
+
+
+
+.datepickerinputbox input {
+    padding: 9px 3px;
+}
+input, select, textarea {
+    font-weight: 100;
+}
+input#roundreturn {
+    padding: 9px 5px;
+}
+input#rounddepart {
+    padding: 9px 5px;
+    font-family: Roboto;
+    font-size: 16px;
+    color: #333333;
+}
+input#onewaydepart {
+    padding: 9px 5px;
+    font-family: Roboto;
+    font-size: 16px;
+    color: #333333;
+}
+input#multitripdepart_1 {
+    padding: 9px 5px;
+    font-family: Roboto;
+    font-size: 16px;
+    color: #333333;
+}
+
+@media screen and (max-width: 1920px) {
+.header_text {padding-top: 130px;}
+}
+
+@media screen and (max-width: 1440px) {
+.Travel_exp_head {height: 100vh;} 
+.header_text {padding-top: 40px !important;}
+}
+@media screen and (max-width: 1024px) {
+.header_text {padding-top: 165px;}
+.flightform .formright {padding-left: 0px;
+    padding-right: 0px;}
+input#roundreturn {font-size: 14px;}
+.datepickerinputbox input {font-size: 14px;}
+
+div#header-widget-area p.call-text {font-size: 10px;margin-top: 16px;}
+div#header-widget-area span.no {font-size: 18px;}
+.nav-menu li, ul.nav-menu li {margin-right: 15px;}
+.Travel_exp_head {height: 95vh;}
+}
+@media screen and (max-width: 980px) {
+.Travel_exp_head h1 {font-size: 60px;}
+.col-sm-7.formright {max-width: 100%!important;}
+.flightform .formleft {max-width: 100%;}
+.col-sm-6.formright {max-width: 100%;}
+.quotebtn {padding: 10px !important;}
+.col-sm-2.nextdiv {padding-left: 4px;}
+input.btn.btn-primary.quotebtn.nextbtn.next {margin-top: 10px;padding-left: 4px;}
+.col-sm-12.nopadding.triprow {margin-bottom: 15px;}
+}
+@media screen and (max-width: 767px) {
+  .flightform .formright {max-width: 100%;}
+.formleft .datepickerinputbox {max-width: 100%;}
+.formright .datepickerinputbox {max-width: 100%;
+    margin-bottom: 1rem;}
+.nextdiv {max-width: 100%;padding: 0px 4px;}
+.Travel_exp_head {height: 80vh;}
+.Travel_exp_head h6 {font-size: 26px;}
+.Travel_exp_head h1 {font-size: 35px;}
+.Travel_exp_head p {font-size: 20px;}
+.col-sm-2.nopadding {max-width: 100%;margin-bottom: 10px;
+  padding: 0px 4px!important;}
+.col-sm-10.nopadding {max-width: 100%;}
+}
+@media screen and (max-width: 475px) {
+.header_text {padding-top: 140px;}
+}
+@media screen and (max-width: 375px) {
+.Travel_exp_head h6 {font-size: 22px;}
+.Travel_exp_head h1 {font-size: 30px;}
+.Travel_exp_head p {font-size: 18px;}
+}
+
+#colophon {
+  display: none;
+}
+footer {
+  padding: 3em 0 1em 0 !important;
+  float: left;
+  width: 100%;
+}
