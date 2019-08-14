@@ -3,7 +3,7 @@
 *{font-family: 'Lato', sans-serif;}
 a:focus{outline:0;}
 .Travel_exp_head {
-    background-image: url(https://bestbusinessflights.com/wp-content/uploads/2018/10/headerflight.jpg);
+    background-image: url(../../assets/img/headerflight.jpg);
     background-size: cover;
     background-position: center;
     height: 515PX !important;
