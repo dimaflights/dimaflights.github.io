@@ -1,0 +1,31 @@
+{
+  "sitedata":  [
+    {
+      "city": "France",
+      "title": "Business Class Flights to France",
+      "paragraph": "France is located in Western Europe and is known for its eclectic culture. The gourmet food, famous art, and detailed architecture create a romantic atmosphere unparalleled to any other country. Here are 5 can't miss recommendations to experience in France.",
+      "bulletpoints": [
+        {
+          "title": "Saint Germain",
+          "text": "aint Germain is often a favorite neighborhood in Paris. The best way to explore is on foot. It's highly recommended to take a walking tour with a twist. Explore many different bakeries and chocolate shops. Experience the vibrant neighborhood. Around every corner, you have cafes and people spilling onto the streets."
+        },
+        {
+          "title": "",
+          "text": ""
+        },
+        {
+          "title": "",
+          "text": ""
+        },
+        {
+          "title": "",
+          "text": ""
+        },
+        {
+          "title": "",
+          "text": ""
+        },
+      ]
+    }
+  ]
+}
