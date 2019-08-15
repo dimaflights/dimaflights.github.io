@@ -17,7 +17,13 @@
     <link href="/assets/css/bootstrap.min(1).css" rel="stylesheet">
     <link href="/assets/css/new-style.css" rel="stylesheet">
     <link href="/assets/css/refstyle.css" rel="stylesheet">
-    <link href="/assets/css/font-awesome.min.css" rel="stylesheet">
+    <!-- <link href="/assets/css/font-awesome.min.css" rel="stylesheet"> -->
+    <!-- <link href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css"
+        integrity="sha256-PF6MatZtiJ8/c9O9HQ8uSUXr++R9KBYu4gbNG5511WE=" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/js/all.js"
+        integrity="sha256-S1WJaJce5DQaJRMMO9igZPd6WRgObuRlQXE8i7yKOd8=" crossorigin="anonymous"></script>
+
     <link href="/assets/css/bootstrap-datepicker3.css" rel="stylesheet">
     <link href="/assets/css/style.min.css" rel="stylesheet" id="wp-block-library-css" type="text/css" media="all">
     <link href="/assets/css/styles.css" rel="stylesheet" id="contact-form-7-css" type="text/css" media="all">
@@ -88,8 +94,8 @@
                 <div class="container">
                     <div class="primary-header-inner">
                         <div class="site-branding">
-                            <a href="https://bestbusinessflights.com/" aria-title="" rel="home" class="custom-header">
-                                <img src="./destination_files/business_flights_1.png" alt="" aria-hidden="true" role="presentation" class="custom-header-image">
+                            <a href="/" aria-title="" rel="home" class="custom-header">
+                                <img src="/assets/img/business_flights_1.png" alt="" aria-hidden="true" role="presentation" class="custom-header-image">
                             </a>
                             <h2 class="site-title"><a href="https://bestbusinessflights.com/" rel="home"></a></h2>
                             <h3 class="site-description"></h3>
@@ -108,7 +114,7 @@
                                             <li id="menu-item-314" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-314"><a href="https://bestbusinessflights.com/united-kingdom/">United Kingdom</a></li>
                                         </ul>
                                     </li>
-                                    <li id="menu-item-145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-145"><a href="https://bestbusinessflights.com/contact/">Contact Us</a></li>
+                                    <li id="menu-item-145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-145"><a href="/contact.html/">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -158,13 +164,13 @@
                                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-314"><a href="https://bestbusinessflights.com/united-kingdom/">United Kingdom</a></li>
                                     </ul>
                                 </li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-145"><a href="https://bestbusinessflights.com/contact/">Contact Us</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-145"><a href="/contact.html/">Contact Us</a></li>
                             </ul>
                         </div>
                         <div class="secondary nav-menu">
                             <ul>
                                 <li><a href="https://bestbusinessflights.com/">Home</a></li>
-                                <li class="page_item page-item-142"><a href="https://bestbusinessflights.com/contact/">contact</a></li>
+                                <li class="page_item page-item-142"><a href="/contact.html/">contact</a></li>
                                 <li class="page_item page-item-107"><a href="https://bestbusinessflights.com/country/">country</a></li>
                                 <li class="page_item page-item-170"><a href="https://bestbusinessflights.com/d/">D</a></li>
                                 <li class="page_item page-item-166"><a href="https://bestbusinessflights.com/ffff/">ffff</a></li>
@@ -214,13 +220,13 @@
                                 <div class="col-sm-12 countrytabsection">
                                     <ul class="nav nav-tabs" role="tablist">
                                         <li class="nav-item">
-                                            <a class="nav-link active" data-toggle="tab" href="https://bestbusinessflights.com/france/#tab1">Round trip</a>
+                                            <a class="nav-link active" data-toggle="tab" href="#tab1">Round trip</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" data-toggle="tab" href="https://bestbusinessflights.com/france/#tab2">One way</a>
+                                            <a class="nav-link" data-toggle="tab" href="#tab2">One way</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" data-toggle="tab" href="https://bestbusinessflights.com/france/#tab3">Multi-city</a>
+                                            <a class="nav-link" data-toggle="tab" href="#tab3">Multi-city</a>
                                         </li>
                                     </ul>
                                     <!-- Tab panes -->
@@ -425,7 +431,8 @@
                                                                                 <option value="5">5</option>
                                                                             </select></span>
                                                                     </div>
-                                                                    <div class="col-sm-3 nopadding">
+                                                                    <!-- <div class="col-sm-3 nopadding"> -->
+                                                                    <div class="col-sm-3 nopadding" id="multi-add-btn">
                                                                         <input type="button" class="btn btn-primary quotebtn " value="Add" id="addmultirow">
                                                                     </div>
                                                                 </div>
@@ -493,8 +500,8 @@
                                 <div class="col-sm-4 workblk">
                                     <div class="work_box">
                                         <h3>Step 1</h3>
-                                        <img src="./destination_files/computer.png" class="work_icon workonhoverout">
-                                        <img src="./destination_files/computer-white.png" class="work_icon workonhover">
+                                        <img src="/assets/img/computer.png" class="work_icon workonhoverout">
+                                        <img src="/assets/img/computer-white.png" class="work_icon workonhover">
                                         <h6>Request a quote</h6>
                                         <p>Request a FREE quote by filling out the itinerary form</p>
                                     </div>
@@ -502,8 +509,8 @@
                                 <div class="col-sm-4 workblk">
                                     <div class="work_box">
                                         <h3>Step 2</h3>
-                                        <img src="./destination_files/copy-document.png" class="work_icon workonhoverout">
-                                        <img src="./destination_files/document-white.png" class="work_icon workonhover">
+                                        <img src="/assets/img/copy-document.png" class="work_icon workonhoverout">
+                                        <img src="/assets/img/document-white.png" class="work_icon workonhover">
                                         <h6>Review itineraries</h6>
                                         <p>Your Best Business Flights Agent will send you itineraries to review</p>
                                     </div>
@@ -511,8 +518,8 @@
                                 <div class="col-sm-4 workblk">
                                     <div class="work_box">
                                         <h3>Step 3</h3>
-                                        <img src="./destination_files/dollar-bills.png" class="work_icon workonhoverout">
-                                        <img src="./destination_files/dollar-bills-white.png" class="work_icon workonhover">
+                                        <img src="/assets/img/dollar-bills.png" class="work_icon workonhoverout">
+                                        <img src="/assets/img/dollar-bills-white.png" class="work_icon workonhover">
                                         <h6>Book &amp; save</h6>
                                         <p>Book the optimal flight and save off of retail price.</p>
                                     </div>
@@ -553,7 +560,7 @@
                                 <h5>30-70% off International, Business &amp; First Class Flights</h5>
                             </div>
                             <div class="col-sm-3 flightquote">
-                                <a href="https://bestbusinessflights.com/#topsection"><button type="button" class=" btn btn-primary btn-read btn--animated">Request A Quote</button></a>
+                                <a href="/#topsection"><button type="button" class=" btn btn-primary btn-read btn--animated">Request A Quote</button></a>
                             </div>
                         </div>
                     </div>
@@ -564,8 +571,8 @@
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="headingOne">
                                     <h4 class="panel-title">
-                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="https://bestbusinessflights.com/france/#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            <i class="more-less glyphicon glyphicon-chevron-down"></i>
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            <i class="more-less fas fa-chevron-down"></i>
                                             What makes your company unique?
                                         </a>
                                     </h4>
@@ -579,8 +586,8 @@
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="headingTwo">
                                     <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="https://bestbusinessflights.com/france/#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            <i class="more-less glyphicon glyphicon-chevron-down"></i>
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            <i class="more-less fas fa-chevron-down"></i>
                                             How are your fares so low?
                                         </a>
                                     </h4>
@@ -594,8 +601,8 @@
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="headingThree">
                                     <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="https://bestbusinessflights.com/france/#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            <i class="more-less glyphicon glyphicon-chevron-down"></i>
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            <i class="more-less fas fa-chevron-down"></i>
                                             How do I book my ticket?
                                         </a>
                                     </h4>
@@ -609,8 +616,8 @@
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="headingThree">
                                     <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="https://bestbusinessflights.com/france/#collapsefour" aria-expanded="false" aria-controls="collapseThree">
-                                            <i class="more-less glyphicon glyphicon-chevron-down"></i>
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefour" aria-expanded="false" aria-controls="collapseThree">
+                                            <i class="more-less fas fa-chevron-down"></i>
                                             Is your company credible?
                                         </a>
                                     </h4>
@@ -624,8 +631,8 @@
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="headingThree">
                                     <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="https://bestbusinessflights.com/france/#collapsefive" aria-expanded="false" aria-controls="collapseThree">
-                                            <i class="more-less glyphicon glyphicon-chevron-down"></i>
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefive" aria-expanded="false" aria-controls="collapseThree">
+                                            <i class="more-less fas fa-chevron-down"></i>
                                             Can I book my ticket online?
                                         </a>
                                     </h4>
@@ -639,8 +646,8 @@
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="headingThree">
                                     <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="https://bestbusinessflights.com/france/#collapsesix" aria-expanded="false" aria-controls="collapseThree">
-                                            <i class="more-less glyphicon glyphicon-chevron-down"></i>
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsesix" aria-expanded="false" aria-controls="collapseThree">
+                                            <i class="more-less fas fa-chevron-down"></i>
                                             Can I accrue mileage?
                                         </a>
                                     </h4>
@@ -654,8 +661,8 @@
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="headingThree">
                                     <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="https://bestbusinessflights.com/france/#collapseseven" aria-expanded="false" aria-controls="collapseThree">
-                                            <i class="more-less glyphicon glyphicon-chevron-down"></i>
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseseven" aria-expanded="false" aria-controls="collapseThree">
+                                            <i class="more-less fas fa-chevron-down"></i>
                                             Can I change or cancel my tickets?
                                         </a>
                                     </h4>
@@ -835,7 +842,7 @@ $(document).ready(function(){
         <footer class="site-footer-widgets">
             <div class="container">
                 <div class="logo-center">
-                    <img src="./destination_files/business_flights_1.png">
+                    <img src="/assets/img/business_flights_1.png">
                 </div>
                 <hr class="footerborderline">
                 <div class="row">
@@ -877,17 +884,17 @@ $(document).ready(function(){
                                     <li><a href="https://twitter.com/bestbflights" target="_blank"><i class="fa fa-twitter-square" style="font-size:24px"></i></a></li>
                                 </ul>
                                 <ul class="">
-                                    <li><a href="https://bestbusinessflights.com/contact/">Contact Us</a></li>
+                                    <li><a href="/contact.html/">Contact Us</a></li>
                                     <li>We accept:</li>
                                 </ul>
                                 <ul class="list-icon">
-                                    <li><img src="./destination_files/n-card-master-1.png"></li>
-                                    <li><img src="./destination_files/banner-discover-min-2.png"></li>
-                                    <li><img src="./destination_files/n-card-visa-min-1.png"></li>
+                                    <li><img src="/assets/img/n-card-master-1.png"></li>
+                                    <li><img src="/assets/img/banner-discover-min-2.png"></li>
+                                    <li><img src="/assets/img/n-card-visa-min-1.png"></li>
                                 </ul>
                                 <ul class="list-icon">
-                                    <li><img src="./destination_files/banner-discover-min-1.png"></li>
-                                    <li><img src="./destination_files/Amex-512.png"></li>
+                                    <li><img src="/assets/img/banner-discover-min-1.png"></li>
+                                    <li><img src="/assets/img/Amex-512.png"></li>
                                 </ul>
                             </div>
                         </aside>

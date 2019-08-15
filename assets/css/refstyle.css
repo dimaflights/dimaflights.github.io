@@ -1359,6 +1359,8 @@ button.btn.btn-primary.btn-read.btn--animated {font-size: 18px!important;margin-
     }
 
     .panel-title {
+        margin-top: 0;
+        /* margin-bottom: 0; */
         font-size: 14px;
     }
 
@@ -1385,9 +1387,18 @@ button.btn.btn-primary.btn-read.btn--animated {font-size: 18px!important;margin-
     .collaspsesec {
     padding:50px 0px;
 }
+
 .panel-body{
     font-size: 16px;
+    padding: 0px 15px 15px 15px;
 }
+
+.panel-default {
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+   
+
 .counheader_text{
     padding-top: 100px;
     padding-bottom: 10px;
