@@ -1,5 +1,5 @@
 .as-seen-on {
-    background-color: ;
+    /* background-color: ; */
 }
 
 html {
@@ -1216,7 +1216,7 @@ footer .footer-widget-column {
 }
 
 .footer-wrapper {
-    background-image: url(https://bestbusinessflights.com/wp-content/uploads/2018/10/footer_image-1.jpg);
+    background-image: url(../img/footer_image-1.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
