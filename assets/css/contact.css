@@ -1,0 +1,44 @@
+.cols-sm-6.one {
+  width: 50%;
+  float: left;
+}
+
+.col-sm-6.ty {
+  padding: 0px;
+  padding-bottom: 13px;
+  margin-left: -1px;
+  padding-left: 3px;
+}
+
+ul.sss {
+  font-size: 21px;
+  line-height: 62px;
+  padding-top: 63px;
+  padding-left: 28px;
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+  margin-top: 11px;
+  margin-bottom: 4px;
+}
+
+.sss a {
+  color: #717A8F;
+}
+
+.sss a:hover {
+  color: #2854a1;
+}
+
+.one {
+  float: left;
+}
+
+.banner {
+  margin-bottom: 24px;
+}
+
+.names div,
+.info div {
+  float: left;
+}
