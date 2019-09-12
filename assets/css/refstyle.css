@@ -3,7 +3,7 @@
 *{font-family: 'Lato', sans-serif;}
 a:focus{outline:0;}
 .Travel_exp_head {
-    background-image: url(../../assets/img/headerflight.jpg);
+    background-image: url(/assets/img/headerflight.jpg);
     background-size: cover;
     background-position: center;
     height: 515PX !important;
@@ -133,7 +133,7 @@ p.effect {
 }
 
 .Travel_fullimg_sec {
-    background-image: url(https://bestbusinessflights.com/wp-content/uploads/2018/10/flight.jpg);
+    background-image: url("/assets/img/flight.jpg");
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -294,7 +294,7 @@ strong.style {
     color:#fff;
 }
 .clientrview {
- background-image:url(https://bestbusinessflights.com/wp-content/uploads/2018/10/flightbusiness.jpg);
+ background-image:url(/assets/img/flightbusiness.jpg);
  background-size: cover;
     background-position: center;
   padding: 140px 0px;
@@ -633,17 +633,17 @@ font-size: 14px;
     font-size: 16px;
     height: 45px;
     width: 100%;}
-    .datepickerinputbox .flightfrom{background-image: url("https://bestbusinessflights.com/wp-content/uploads/2018/10/aeroplane-icon.png");}
+    .datepickerinputbox .flightfrom{background-image: url("/assets/img/aeroplane-icon.png");}
      .datepickerinputbox .flightfrom:focus{background-image: none;}
      .datepickerinputbox .flightfrom:active { background-image: none;}
 
-     .datepickerinputbox .flightto{background-image: url("https://bestbusinessflights.com/wp-content/uploads/2018/10/address-icon.png");}
+     .datepickerinputbox .flightto{background-image: url("/assets/img/address-icon.png");}
 
      .datepickerinputbox .flightto:focus{background-image: none;}
      .datepickerinputbox .flightto:active { background-image: none;}
 
 
-     .datepickerinputbox .datepickerinput{background-image: url("https://bestbusinessflights.com/wp-content/uploads/2018/10/calendericon.png");}
+     .datepickerinputbox .datepickerinput{background-image: url("/assets/img/calendericon.png");}
 
 .flightform .formleft {
     padding-right: 0;padding-left: 0;
@@ -950,7 +950,7 @@ i.fa.fa-check-circle.green {
 
 }
 .how_work {
-    background-image: url(https://bestbusinessflights.com/wp-content/uploads/2018/10/how_it_works.jpg);
+    background-image: url("/assets/img/how_it_works.jpg");
     background-size: cover;
     background-position: center;
     padding: 20px 0px;

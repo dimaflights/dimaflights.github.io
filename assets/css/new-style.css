@@ -23,7 +23,7 @@ a , a:hover , a:focus {outline:0;text-decoration: none !important;}
 }
 .bannerdiv {
     align-items: center;
-    background: rgba(0, 0, 0, 0) url("https://bestbusinessflights.com/wp-content/uploads/2018/10/header_banner_1.jpg") repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("/assets/img/header_banner_1.jpg") repeat scroll 0 0;
     display: flex;
     justify-content: center;
     min-height: 400px;
@@ -44,7 +44,7 @@ nav.navigationbar {
     font-weight: 900;
 }
 footer {
-    background: rgba(0, 0, 0, 0) url("https://bestbusinessflights.com/wp-content/uploads/2018/10/footer_image-1.jpg") no-repeat scroll center center / cover ;
+    background: rgba(0, 0, 0, 0) url("/assets/img/footer_image-1.jpg") no-repeat scroll center center / cover ;
     padding: 40px 0 0;
 }
 .footerwidget h3 {

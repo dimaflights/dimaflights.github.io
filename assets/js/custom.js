@@ -92,6 +92,12 @@ $(document).ready(function () {
 
   $('[data-toggle="tooltip"]').tooltip();
 
+
+  $(".navigation-bar-toggle").on("click", function (b) {
+    b.preventDefault(),
+      $(this).toggleClass("active").next().toggleClass("active")
+  })
+
 });
 
 
@@ -133,3 +139,4 @@ function setdate(selectObject) {
 function myFunction(x) {
   x.style.background = "WHITE";
 }
+
