@@ -44,12 +44,44 @@ $(document).ready(function () {
     pause: true, interval: 10000,
   });
 
-  var multirow = 2;
+  // var multirow = 2;
   $("#addmultirow").click(function () {
-    var fieldHTML = '<div class="col-sm-12 nopadding triprow" id="triprow_' + multirow + '"><div class="col-sm-7 formleft"><div class="col-sm-6 datepickerinputbox"><div class="form-group"><input type="text" class="form-control flightfrom backicon locationsrch" placeholder="Flight From" value="" name="multifrom[]" id="multifrom_' + multirow + '"></div></div><div class="col-sm-6 datepickerinputbox"><div class="form-group"><input type="text" class="form-control flightto backicon locationsrch" placeholder="Flight To" value="" name="multito[]" id="multito_' + multirow + '"></div></div></div><div class="col-sm-5 formright"><div class="col-sm-5 datepickerinputbox"><input id="multitripdepart_' + multirow + '" name="multitripdepart[]" class="datepickerinput backicon" type="text" placeholder="mm/dd/yyyy" onclick="setdate(this);"/></div><div class="col-sm-4 datepickerinputbox"><select name="multitripadult_' + multirow + '" id="multitripadult_' + multirow + '"><option value="" selected disabled>Passengers</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select></div><div class="col-sm-3 delbtn"><button class="delmultirow">Delete</button></div></div>';
+    var multirow = $('.triprow').length + 1;
+    var fieldHTML = 
+      '<div class="col-sm-12 nopadding triprow" id="triprow_' + multirow + '">'+
+        '<div class="col-sm-7 formleft">'+
+          '<div class="col-sm-6 datepickerinputbox">'+
+            '<div class="form-group">'+
+      '<input type="text" class="form-control flightfrom backicon locationsrch" placeholder="Flight From" value="" name="multifrom_' + multirow + '" id="multifrom_' + multirow + '">'+
+            '</div>'+
+          '</div>'+
+          '<div class="col-sm-6 datepickerinputbox">'+
+            '<div class="form-group">'+
+      '<input type="text" class="form-control flightto backicon locationsrch" placeholder="Flight To" value="" name="multito_' + multirow + '" id="multito_' + multirow + '">'+
+            '</div>'+
+          '</div>'+
+        '</div>'+
+        '<div class="col-sm-5 formright">'+
+          '<div class="col-sm-5 datepickerinputbox">'+
+            '<input id="multitripdepart_' + multirow + '" name="multitripdepart_' + multirow + '" class="datepickerinput backicon" type="text" placeholder="mm/dd/yyyy" onclick="setdate(this);" />'+
+          '</div>'+
+            '<div class="col-sm-4 datepickerinputbox">'+
+            '<select name="multitripadult_' + multirow + '" id="multitripadult_' + multirow + '">'+
+              '<option value="" selected disabled>Passengers</option>'+
+              '<option value="1">1</option><option value="2">2</option>'+
+              '<option value="3">3</option><option value="4">4</option>'+
+              '<option value="5">5</option>'+
+            '</select>'+
+          '</div>'+
+          '<div class="col-sm-3 delbtn">'+
+            '<button class="delmultirow">Delete</button>'+
+          '</div>'+
+        '</div>';
+      var fieldHTML = '<div class="col-sm-12 nopadding triprow" id="triprow_' + multirow + '"><div class="col-sm-7 formleft"><div class="col-sm-6 datepickerinputbox"><div class="form-group"><input type="text" class="form-control flightfrom backicon locationsrch" placeholder="Flight From" value="" name="multifrom[]" id="multifrom_' + multirow + '"></div></div><div class="col-sm-6 datepickerinputbox"><div class="form-group"><input type="text" class="form-control flightto backicon locationsrch" placeholder="Flight To" value="" name="multito[]" id="multito_' + multirow + '"></div></div></div><div class="col-sm-5 formright"><div class="col-sm-5 datepickerinputbox"><input id="multitripdepart_' + multirow + '" name="multitripdepart[]" class="datepickerinput backicon" type="text" placeholder="mm/dd/yyyy" onclick="setdate(this);"/></div><div class="col-sm-4 datepickerinputbox"><select name="multitripadult_' + multirow + '" id="multitripadult_' + multirow + '"><option value="" selected disabled>Passengers</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select></div><div class="col-sm-3 delbtn"><button class="delmultirow">Delete</button></div></div>';
+
 
     $('body').find('.triprow:last').after(fieldHTML);
-    multirow++;
+    // multirow++;
   });
 
   $("body").on("click", ".delmultirow", function () {
