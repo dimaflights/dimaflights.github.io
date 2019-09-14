@@ -866,16 +866,24 @@ $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip();
 });
 </script>
-            <style>
-                .Travel_exp_head.fer {
-    background-image: url(./assets/img/Japan_main-1.jpg);
+<style>
+  .Travel_exp_head.fer {
+    background-image: url(./assets/img/France_main-1.jpg);
     background-size: cover;
     background-position: center;
-    height: 600px !important;
-}
-.container.bottom , .flighttext{
+
+  }
+
+  @media only screen and (min-width : 1224px) {
+    .Travel_exp_head.fer {
+      height: 600px !important;
+    }
+  }
+
+  .container.bottom,
+  .flighttext {
     text-align: center;
-}
+  }
 </style>
         </div><!-- #content -->
     </div><!-- #page -->
