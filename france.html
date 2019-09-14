@@ -203,257 +203,294 @@
                                         </li>
                                     </ul>
                                     <!-- Tab panes -->
-                                    <div class="tab-content row">
-                                        <div id="tab1" class="container tab-pane active">
-                                            <form class="flightform" id="roundform" method="post" action="https://bestbusinessflights.com/request-a-quote/">
-                                                <div class="step1">
-                                                    <ul class="radio-but">
-                                                        <li><input type="radio" name="class" value="Business" checked="">Business</li>
-                                                        <li><input type="radio" name="class" value="First Class">First Class</li>
-                                                        <li><input type="radio" name="class" value="Premium Economy">Premium Economy</li>
-                                                        <li><input type="radio" name="class" value="Economy">Economy</li>
-                                                    </ul>
-                                                    <div class="col-sm-12 nopadding">
-                                                        <div class="col-sm-6 formleft">
-                                                            <div class="col-sm-6 datepickerinputbox">
-                                                                <div class="form-group">
-                                                                    <input type="text" class="form-control flightfrom backicon locationsrch" placeholder="Flight From" value="" id="roundfrom" name="roundfrom" onfocus="myFunction(this)" required="">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-sm-6 datepickerinputbox">
-                                                                <div class="form-group">
-                                                                    <input type="text" class="form-control flightto backicon locationsrch" placeholder="Flight To" value="" id="roundto" name="roundto" onfocus="myFunction(this)" required="">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6 formright">
-                                                            <div class="col-sm-3 datepickerinputbox">
-                                                                <input id="rounddepart" name="rounddepart" class="backicon" placeholder="Depart" type="text" required="">
-                                                            </div>
-                                                            <div class="col-sm-3 datepickerinputbox">
-                                                                <input id="roundreturn" name="roundreturn" class="backicon" placeholder="Return" type="text" required="">
-                                                            </div>
-                                                            <div class="col-sm-4 datepickerinputbox">
-                                                                <span class="select null-wrapper"><select name="roundpassenger" id="roundpassenger" required="">
-                                                                        <option value="" selected="" disabled="">Passengers</option>
-                                                                        <option value="1">1</option>
-                                                                        <option value="2">2</option>
-                                                                        <option value="3">3</option>
-                                                                        <option value="4">4</option>
-                                                                        <option value="5">5</option>
-                                                                    </select></span>
-                                                                <!--  <input id="roundpassenger" name="roundpassenger" type="number" min="0" required placeholder="Passenger"/> -->
-                                                            </div>
-                                                            <div class="col-sm-2 nextdiv">
-                                                                <input type="button" class="btn btn-primary quotebtn nextbtn" value="Next">
-                                                            </div>
-                                                        </div>
+                        <!-- Tab panes -->
+                        <div class="tab-content row">
+                            <div id="tab1" class="container tab-pane active">
+                                <form class="flightform" id="roundform" method="post" action="./request-a-quote/">
+                                    <div class="step1">
+                                        <ul class="radio-but">
+                                            <li><input type="radio" name="class" value="Business" checked="">Business</li>
+                                            <li><input type="radio" name="class" value="First Class">First Class</li>
+                                            <li><input type="radio" name="class" value="Premium Economy">Premium Economy</li>
+                                            <li><input type="radio" name="class" value="Economy">Economy</li>
+                                        </ul>
+                                        <div class="col-sm-12 nopadding">
+                                            <div class="col-sm-6 formleft">
+                                                <div class="col-sm-6 datepickerinputbox">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control flightfrom backicon locationsrch"
+                                                            placeholder="Flight From" value="" id="roundfrom" name="roundfrom"
+                                                            onfocus="myFunction(this)" required="">
                                                     </div>
                                                 </div>
-                                                <div class="step2" style="display:none;">
-                                                    <div class="col-sm-12 nopadding section-head">
-                                                        <h2>Where should we send your quote?</h2>
-                                                    </div>
-                                                    <div class="col-sm-12 nopadding formleft">
-                                                        <div class="col-sm-10 nopadding">
-                                                            <div class="col-sm-3 datepickerinputbox">
-                                                                <div class="form-group">
-                                                                    <input type="text" class="form-control" placeholder="First Name" value="" name="firstname" required="">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-sm-3 datepickerinputbox">
-                                                                <div class="form-group">
-                                                                    <input type="text" class="form-control" placeholder="Last Name" value="" name="lastname" required="">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-sm-3 datepickerinputbox">
-                                                                <div class="form-group">
-                                                                    <input type="text" class="form-control" placeholder="Email" value="" name="email" required="">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-sm-3 datepickerinputbox">
-                                                                <div class="form-group">
-                                                                    <input type="text" class="form-control" placeholder="Phone" value="" name="phone" required="">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-2 nopadding ">
-                                                            <input type="submit" class="btn btn-primary quotebtn" value="Request a quote" name="roundquote">
-                                                        </div>
-                                                    </div>
-                                                    <div class="container bottom">
-                                                        <a href="https://bestbusinessflights.com/france/#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="The agreements Best Business Flights established with the airlines cannot be published online. We are only allowed to share pricing via email and/or phone. Your contact information is safe and will not be used for anything other than communicating this quote!">Why can't I see the fares online?</a>
+                                                <div class="col-sm-6 datepickerinputbox">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control flightto backicon locationsrch"
+                                                            placeholder="Flight To" value="" id="roundto" name="roundto"
+                                                            onfocus="myFunction(this)" required="">
                                                     </div>
                                                 </div>
-                                            </form>
-                                        </div>
-                                        <div id="tab2" class="container tab-pane">
-                                            <form class="flightform" id="onewayform" method="post" action="https://bestbusinessflights.com/request-a-quote/">
-                                                <div class="step1">
-                                                    <ul class="radio-but">
-                                                        <li><input type="radio" name="class" value="Business" checked="">Business</li>
-                                                        <li><input type="radio" name="class" value="First Class">First Class</li>
-                                                        <li><input type="radio" name="class" value="Premium Economy">Premium Economy</li>
-                                                        <li><input type="radio" name="class" value="Economy">Economy</li>
-                                                    </ul>
-                                                    <div class="col-sm-12 nopadding">
-                                                        <div class="col-sm-7 formleft">
-                                                            <div class="col-sm-6 datepickerinputbox">
-                                                                <div class="form-group">
-                                                                    <input type="text" class="form-control flightfrom backicon locationsrch" placeholder="Flight From" value="" id="onewayfrom" name="onewayfrom" onfocus="myFunction(this)" required="">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-sm-6 datepickerinputbox">
-                                                                <div class="form-group">
-                                                                    <input type="text" class="form-control flightto backicon locationsrch" placeholder="Flight To" value="" id="onewayto" name="onewayto" onfocus="myFunction(this)" required="">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-5 formright">
-                                                            <div class="col-sm-5 datepickerinputbox">
-                                                                <input id="onewaydepart" class="datepickerinput backicon" type="text" name="onewaydepart" required="" placeholder="mm/dd/yyyy">
-                                                            </div>
-                                                            <div class="col-sm-4 datepickerinputbox">
-                                                                <span class="select null-wrapper"><select name="onewaypassenger" id="onewaypassenger" required="">
-                                                                        <option value="" selected="" disabled="">Passengers</option>
-                                                                        <option value="1">1</option>
-                                                                        <option value="2">2</option>
-                                                                        <option value="3">3</option>
-                                                                        <option value="4">4</option>
-                                                                        <option value="5">5</option>
-                                                                    </select></span>
-                                                            </div>
-                                                            <div class="col-sm-3 nextdiv">
-                                                                <input type="button" class="btn btn-primary quotebtn nextbtn" value="Next">
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                            </div>
+                                            <div class="col-sm-6 formright">
+                                                <div class="col-sm-3 datepickerinputbox">
+                                                    <input id="rounddepart" name="rounddepart" class="backicon" placeholder="Depart" type="text"
+                                                        required="">
                                                 </div>
-                                                <div class="step2" style="display: none;">
-                                                    <div class="col-sm-12 nopadding section-head">
-                                                        <h2>Where should we send your quote?</h2>
-                                                    </div>
-                                                    <div class="col-sm-12 nopadding formleft">
-                                                        <div class="col-sm-10 nopadding">
-                                                            <div class="col-sm-3 datepickerinputbox">
-                                                                <div class="form-group">
-                                                                    <input type="text" class="form-control" placeholder="First Name" value="" name="firstname" required="">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-sm-3 datepickerinputbox">
-                                                                <div class="form-group">
-                                                                    <input type="text" class="form-control" placeholder="Last Name" value="" name="lastname" required="">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-sm-3 datepickerinputbox">
-                                                                <div class="form-group">
-                                                                    <input type="text" class="form-control" placeholder="Email" value="" name="email" required="">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-sm-3 datepickerinputbox">
-                                                                <div class="form-group">
-                                                                    <input type="text" class="form-control" placeholder="Phone" value="" name="phone" required="">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-2 nopadding ">
-                                                            <input class="btn btn-primary quotebtn" value="Request a quote" type="submit" name="onewayquote">
-                                                        </div>
-                                                    </div>
-                                                    <div class="container bottom">
-                                                        <a href="https://bestbusinessflights.com/france/#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="The agreements Best Business Flights established with the airlines cannot be published online. We are only allowed to share pricing via email and/or phone. Your contact information is safe and will not be used for anything other than communicating this quote!">Why can't I see the fares online?</a>
-                                                    </div>
+                                                <div class="col-sm-3 datepickerinputbox">
+                                                    <input id="roundreturn" name="roundreturn" class="backicon" placeholder="Return" type="text"
+                                                        required="">
                                                 </div>
-                                            </form>
-                                        </div>
-                                        <div id="tab3" class="container tab-pane">
-                                            <form class="flightform" id="multitripform" method="post" action="https://bestbusinessflights.com/request-a-quote/">
-                                                <div class="step1">
-                                                    <ul class="radio-but">
-                                                        <li><input type="radio" name="class" value="Business" checked="">Business</li>
-                                                        <li><input type="radio" name="class" value="First Class">First Class</li>
-                                                        <li><input type="radio" name="class" value="Premium Economy">Premium Economy</li>
-                                                        <li><input type="radio" name="class" value="Economy">Economy</li>
-                                                    </ul>
-                                                    <div class="col-sm-12 nopadding" id="multitrip">
-                                                        <div class="scrolldiv">
-                                                            <div class="col-sm-12 nopadding triprow" id="triprow_1">
-                                                                <div class="col-sm-7 formleft">
-                                                                    <div class="col-sm-6 datepickerinputbox">
-                                                                        <div class="form-group">
-                                                                            <input type="text" class="form-control flightfrom backicon locationsrch" placeholder="Flight From" value="" name="multifrom[]" id="multifrom_1" onfocus="myFunction(this)" required="">
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-sm-6 datepickerinputbox">
-                                                                        <div class="form-group">
-                                                                            <input type="text" class="form-control flightto backicon locationsrch" placeholder="Flight To" value="" name="multito[]" id="multito_1" onfocus="myFunction(this)" required="">
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-sm-5 formright">
-                                                                    <div class="col-sm-5 datepickerinputbox">
-                                                                        <input id="multitripdepart_1" name="multitripdepart[]" class="datepickerinput backicon" type="text" required="" placeholder="mm/dd/yyyy">
-                                                                    </div>
-                                                                    <div class="col-sm-4 datepickerinputbox">
-                                                                        <span class="select null-wrapper"><select name="multitripadult_1" id="multitripadult_1" required="">
-                                                                                <option value="">Passengers</option>
-                                                                                <option value="1">1</option>
-                                                                                <option value="2">2</option>
-                                                                                <option value="3">3</option>
-                                                                                <option value="4">4</option>
-                                                                                <option value="5">5</option>
-                                                                            </select></span>
-                                                                    </div>
-                                                                    <!-- <div class="col-sm-3 nopadding"> -->
-                                                                    <div class="col-sm-3 nopadding" id="multi-add-btn">
-                                                                        <input type="button" class="btn btn-primary quotebtn " value="Add" id="addmultirow">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-2  nextdiv">
-                                                            <input type="button" class="btn btn-primary quotebtn nextbtn  next" value="Next">
-                                                        </div>
-                                                    </div>
+                                                <div class="col-sm-4 datepickerinputbox">
+                                                    <span class="select null-wrapper"><select name="roundpassenger" id="roundpassenger"
+                                                            required="">
+                                                            <option value="" selected="" disabled="">Passengers</option>
+                                                            <option value="1">1</option>
+                                                            <option value="2">2</option>
+                                                            <option value="3">3</option>
+                                                            <option value="4">4</option>
+                                                            <option value="5">5</option>
+                                                        </select></span>
+                                                    <!--  <input id="roundpassenger" name="roundpassenger" type="number" min="0" required placeholder="Passenger"/> -->
                                                 </div>
-                                                <div class="step2" style="display: none">
-                                                    <div class="col-sm-12 nopadding section-head">
-                                                        <h2>Where should we send your quote?</h2>
-                                                    </div>
-                                                    <div class="col-sm-12 nopadding formleft">
-                                                        <div class="col-sm-10 nopadding">
-                                                            <div class="col-sm-3 datepickerinputbox">
-                                                                <div class="form-group">
-                                                                    <input type="text" class="form-control" placeholder="First Name" value="" name="firstname" required="">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-sm-3 datepickerinputbox">
-                                                                <div class="form-group">
-                                                                    <input type="text" class="form-control" placeholder="Last Name" value="" name="lastname" required="">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-sm-3 datepickerinputbox">
-                                                                <div class="form-group">
-                                                                    <input type="text" class="form-control" placeholder="Email" value="" name="email" required="">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-sm-3 datepickerinputbox">
-                                                                <div class="form-group">
-                                                                    <input type="text" class="form-control" placeholder="Phone" value="" name="phone" required="">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-2 nopadding ">
-                                                            <input class="btn btn-primary quotebtn" value="Request a quote" type="submit" name="multitripquote">
-                                                        </div>
-                                                    </div>
-                                                    <div class="container bottom">
-                                                        <a href="https://bestbusinessflights.com/france/#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="The agreements Best Business Flights established with the airlines cannot be published online. We are only allowed to share pricing via email and/or phone. Your contact information is safe and will not be used for anything other than communicating this quote!">Why can't I see the fares online?</a>
-                                                    </div>
+                                                <div class="col-sm-2 nextdiv">
+                                                    <input type="button" class="btn btn-primary quotebtn nextbtn" value="Next">
                                                 </div>
-                                            </form>
+                                            </div>
                                         </div>
                                     </div>
+                                    <div class="step2" style="display:none;">
+                                        <div class="col-sm-12 nopadding section-head">
+                                            <h2>Where should we send your quote?</h2>
+                                        </div>
+                                        <div class="col-sm-12 nopadding formleft">
+                                            <div class="col-sm-10 nopadding">
+                                                <!-- <div class="col-sm-3 datepickerinputbox">
+                                                                            <div class="form-group">
+                                                                                <input type="text" class="form-control" placeholder="First Name" value="" name="firstname" required="">
+                                                                            </div>
+                                                                        </div> -->
+                                                <div class="col-sm-6 datepickerinputbox">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" placeholder="Full Name" value="" name="lastname"
+                                                            required="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-3 datepickerinputbox">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" placeholder="Email" value="" name="email"
+                                                            required="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-3 datepickerinputbox">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" placeholder="Phone" value="" name="phone"
+                                                            required="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-2 nopadding" id="request-btn">
+                                                <input type="submit" class="btn btn-primary quotebtn" value="Request a quote" name="roundquote">
+                                            </div>
+                                        </div>
+                                        <div class="container bottom">
+                                            <a href="#" data-toggle="tooltip" data-placement="bottom" title=""
+                                                data-original-title="The agreements Best Business Flights established with the airlines cannot be published online. We are only allowed to share pricing via email and/or phone. Your contact information is safe and will not be used for anything other than communicating this quote!">Why
+                                                can't I see the fares online?</a>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div id="tab2" class="container tab-pane">
+                                <form class="flightform" id="onewayform" method="post" action="./request-a-quote/">
+                                    <div class="step1">
+                                        <ul class="radio-but">
+                                            <li><input type="radio" name="class" value="Business" checked="">Business</li>
+                                            <li><input type="radio" name="class" value="First Class">First Class</li>
+                                            <li><input type="radio" name="class" value="Premium Economy">Premium Economy</li>
+                                            <li><input type="radio" name="class" value="Economy">Economy</li>
+                                        </ul>
+                                        <div class="col-sm-12 nopadding">
+                                            <div class="col-sm-7 formleft">
+                                                <div class="col-sm-6 datepickerinputbox">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control flightfrom backicon locationsrch"
+                                                            placeholder="Flight From" value="" id="onewayfrom" name="onewayfrom"
+                                                            onfocus="myFunction(this)" required="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6 datepickerinputbox">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control flightto backicon locationsrch"
+                                                            placeholder="Flight To" value="" id="onewayto" name="onewayto"
+                                                            onfocus="myFunction(this)" required="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-5 formright">
+                                                <div class="col-sm-5 datepickerinputbox">
+                                                    <input id="onewaydepart" class="datepickerinput backicon" type="text" name="onewaydepart"
+                                                        required="" placeholder="mm/dd/yyyy">
+                                                </div>
+                                                <div class="col-sm-4 datepickerinputbox">
+                                                    <span class="select null-wrapper"><select name="onewaypassenger" id="onewaypassenger"
+                                                            required="">
+                                                            <option value="" selected="" disabled="">Passengers</option>
+                                                            <option value="1">1</option>
+                                                            <option value="2">2</option>
+                                                            <option value="3">3</option>
+                                                            <option value="4">4</option>
+                                                            <option value="5">5</option>
+                                                        </select></span>
+                                                </div>
+                                                <div class="col-sm-3 nextdiv">
+                                                    <input type="button" class="btn btn-primary quotebtn nextbtn" value="Next">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="step2" style="display: none;">
+                                        <div class="col-sm-12 nopadding section-head">
+                                            <h2>Where should we send your quote?</h2>
+                                        </div>
+                                        <div class="col-sm-12 nopadding formleft">
+                                            <div class="col-sm-10 nopadding">
+                                                <!-- <div class="col-sm-3 datepickerinputbox">
+                                                                            <div class="form-group">
+                                                                                <input type="text" class="form-control" placeholder="First Name" value="" name="firstname" required="">
+                                                                            </div>
+                                                                        </div> -->
+                                                <div class="col-sm-6 datepickerinputbox">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" placeholder="Full Name" value="" name="lastname"
+                                                            required="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-3 datepickerinputbox">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" placeholder="Email" value="" name="email"
+                                                            required="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-3 datepickerinputbox">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" placeholder="Phone" value="" name="phone"
+                                                            required="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-2 nopadding onewaynamefix ">
+                                                <input class="btn btn-primary quotebtn" value="Request a quote" type="submit"
+                                                    name="onewayquote">
+                                            </div>
+                                        </div>
+                                        <div class="container bottom">
+                                            <a href="#" data-toggle="tooltip" data-placement="bottom" title=""
+                                                data-original-title="The agreements Best Business Flights established with the airlines cannot be published online. We are only allowed to share pricing via email and/or phone. Your contact information is safe and will not be used for anything other than communicating this quote!">Why
+                                                can't I see the fares online?</a>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div id="tab3" class="container tab-pane">
+                                <form class="flightform" id="multitripform" method="post" action="./request-a-quote/">
+                                    <div class="step1">
+                                        <ul class="radio-but">
+                                            <li><input type="radio" name="class" value="Business" checked="">Business</li>
+                                            <li><input type="radio" name="class" value="First Class">First Class</li>
+                                            <li><input type="radio" name="class" value="Premium Economy">Premium Economy</li>
+                                            <li><input type="radio" name="class" value="Economy">Economy</li>
+                                        </ul>
+                                        <div class="col-sm-12 nopadding" id="multitrip">
+                                            <div class="scrolldiv">
+                                                <div class="col-sm-12 nopadding triprow" id="triprow_1">
+                                                    <div class="col-sm-7 formleft">
+                                                        <div class="col-sm-6 datepickerinputbox">
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control flightfrom backicon locationsrch"
+                                                                    placeholder="Flight From" value="" name="multifrom_1" id="multifrom_1"
+                                                                    onfocus="myFunction(this)" required="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-6 datepickerinputbox">
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control flightto backicon locationsrch"
+                                                                    placeholder="Flight To" value="" name="multito_1" id="multito_1"
+                                                                    onfocus="myFunction(this)" required="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-5 formright">
+                                                        <div class="col-sm-5 datepickerinputbox">
+                                                            <input id="multitripdepart_1" name="multitripdepart_1"
+                                                                class="datepickerinput backicon" type="text" required=""
+                                                                placeholder="mm/dd/yyyy">
+                                                        </div>
+                                                        <div class="col-sm-4 datepickerinputbox">
+                                                            <span class="select null-wrapper"><select name="multitripadult_1"
+                                                                    id="multitripadult_1" required="">
+                                                                    <option value="">Passengers</option>
+                                                                    <option value="1">1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                    <option value="4">4</option>
+                                                                    <option value="5">5</option>
+                                                                </select></span>
+                                                        </div>
+                                                        <div class="col-sm-3 nopadding" id="multi-add-btn">
+                                                            <input type="button" class="btn btn-primary quotebtn " value="Add" id="addmultirow">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-2 nextdiv">
+                                                <input type="button" class="btn btn-primary quotebtn nextbtn  next" value="Next">
+                                            </div>
+                                        </div>
+                                        <div class="step2" style="display: none">
+                                            <div class="col-sm-12 nopadding section-head">
+                                                <h2>Where should we send your quote?</h2>
+                                            </div>
+                                            <div class="col-sm-12 nopadding formleft">
+                                                <div class="col-sm-10 nopadding">
+                                                    <!-- <div class="col-sm-3 datepickerinputbox">
+                                                                                <div class="form-group">
+                                                                                    <input type="text" class="form-control" placeholder="First Name" value="" name="firstname" required="">
+                                                                                </div>
+                                                                            </div> -->
+                                                    <div class="col-sm-6 datepickerinputbox">
+                                                        <div class="form-group">
+                                                            <input type="text" class="form-control" placeholder="Full Name" value=""
+                                                                name="lastname" required="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-3 datepickerinputbox">
+                                                        <div class="form-group">
+                                                            <input type="text" class="form-control" placeholder="Email" value="" name="email"
+                                                                required="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-3 datepickerinputbox">
+                                                        <div class="form-group">
+                                                            <input type="text" class="form-control" placeholder="Phone" value="" name="phone"
+                                                                required="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-2 nopadding multi-quote">
+                                                    <input class="btn btn-primary quotebtn" value="Request a quote" type="submit"
+                                                        name="multitripquote">
+                                                </div>
+                                            </div>
+                                            <div class="container bottom">
+                                                <a href="#" data-toggle="tooltip" data-placement="bottom" title=""
+                                                    data-original-title="The agreements Best Business Flights established with the airlines cannot be published online. We are only allowed to share pricing via email and/or phone. Your contact information is safe and will not be used for anything other than communicating this quote!">Why
+                                                    can't I see the fares online?</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                                 </div>
                             </div>
                         </div>
