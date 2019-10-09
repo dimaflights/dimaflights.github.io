@@ -191,7 +191,6 @@ $(document).ready(function () {
       postData[nameMap[item.name]] = item.value
     })
 
-    console.log(postData);
     $.ajax({
       type: "POST",
       url: url,
